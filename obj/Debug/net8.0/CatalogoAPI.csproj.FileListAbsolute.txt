@@ -165,10 +165,11 @@ C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CatalogoAPI.props
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CatalogoAPI.props
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\Catalogo.5FC76841.Up2Date
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\CatalogoAPI.dll
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\refint\CatalogoAPI.dll
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\CatalogoAPI.pdb
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\CatalogoAPI.genruntimeconfig.cache
 C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\ref\CatalogoAPI.dll
+C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\CatalogoAPI.sourcelink.json
+C:\Users\Kaio\OneDrive\Documentos\Códigos\CatalogoAPI\CatalogoAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

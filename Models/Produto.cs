@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace CatalogoAPI.Models;
 
@@ -28,6 +29,8 @@ public class Produto
     public float Estoque { get; set; }
     public DateTime DataCadastro { get; set; }
     public int CategoriaId { get; set; }
+
+    [JsonIgnore(Condition = JsonIgnoreCondition.Always)]
     public Categoria? Categoria { get; set; }
    
 }

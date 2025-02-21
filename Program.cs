@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using CatalogoAPI.Context;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddControllers().AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 string sqlServerConnection = builder.Configuration.GetConnectionString("DefaultConnection"); // String que faz a conexão da API com o banco de dados SQL Server Adicionado no appsettings.json
 
