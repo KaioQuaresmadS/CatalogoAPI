@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CatalogoAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250219201921_PopulaCategorias")]
-    partial class PopulaCategorias
+    [Migration("20250307003205_PopulaCategoria")]
+    partial class PopulaCategoria
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,11 +27,11 @@ namespace CatalogoAPI.Migrations
 
             modelBuilder.Entity("CatalogoAPI.Models.Categoria", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("CategoriaId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoriaId"));
 
                     b.Property<string>("ImagemUrl")
                         .IsRequired()
@@ -43,7 +43,7 @@ namespace CatalogoAPI.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id");
+                    b.HasKey("CategoriaId");
 
                     b.ToTable("Categorias");
                 });

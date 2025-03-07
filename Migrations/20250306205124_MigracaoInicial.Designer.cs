@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CatalogoAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250221140346_AjusteCorreto")]
-    partial class AjusteCorreto
+    [Migration("20250306205124_MigracaoInicial")]
+    partial class MigracaoInicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

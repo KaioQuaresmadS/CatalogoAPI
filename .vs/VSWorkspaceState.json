@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Context"
+    "\\Context",
+    "\\Controllers"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\Context\\AppDbContext.cs",
   "PreviewInSolutionExplorer": false
 }
