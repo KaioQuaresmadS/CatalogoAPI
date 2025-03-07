@@ -2,6 +2,7 @@
 using CatalogoAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 namespace CatalogoAPI.Controllers
 {
@@ -17,7 +18,7 @@ namespace CatalogoAPI.Controllers
         [HttpGet] // Define que o método responde a requisições GET
         public ActionResult<IEnumerable<Produto>> Get()
         {
-            var produtos = _context.Produtos.ToList();
+            var produtos = _context.Produtos.AsNoTracking().ToList();
             if (produtos is null)
             {
                 return NotFound();
